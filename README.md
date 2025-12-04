@@ -102,8 +102,8 @@ summary(model, input_size=(1, 28, 28))
 # Train the autoencoder
 def train(model, loader, criterion, optimizer, epochs=5):
   model.train()
-  print("Name: ALAN ZION H")
-  print("Register Number: 212223240004")
+  print("Name: Manikandan R")
+  print("Register Number: 212223230120")
   for epoch in range(epochs):
     running_loss = 0.0
     for images, _ in loader:
@@ -135,8 +135,8 @@ def visualize_denoising(model, loader, num_images=10):
     noisy_images = noisy_images.cpu().numpy()
     outputs = outputs.cpu().numpy()
 
-    print("Name: ALAN ZION H")
-    print("Register Number: 212223240004")
+    print("Name: Manikandan R")
+    print("Register Number: 212223230120")
     plt.figure(figsize=(18, 6))
     for i in range(num_images):
         # Original
